@@ -88,6 +88,12 @@ class AppTheme {
           foregroundColor: Colors.white,
         ),
       ),
+
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          foregroundColor: AppColors.outlineButtonText,
+        ),
+      ),
     );
   }
 }

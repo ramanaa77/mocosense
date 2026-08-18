@@ -7,6 +7,9 @@ class AppColors {
   static const primary = Color(0xFF0F766E);
   static const primaryDark = Color(0xFF115E59);
 
+  // Button colors
+  static const outlineButtonText = Color(0xFF00B0A2);
+
   // Security status
   static const success = Color(0xFF16A34A);
   static const warning = Color(0xFFD97706);
