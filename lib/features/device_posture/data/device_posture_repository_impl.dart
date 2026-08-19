@@ -34,10 +34,10 @@ class DevicePostureRepositoryImpl implements DevicePostureRepository {
       checks: [
         SecurityCheckResult(
           id: 'root',
-          title: 'Root / Jailbreak',
+          title: 'Root Status',
           description: isJailBroken
-              ? 'A root or jailbreak indicator was observed.'
-              : 'No root or jailbreak indicator was observed.',
+              ? 'A root-related indicator was observed.'
+              : 'No root-related indicator was observed.',
           status: isJailBroken ? SecurityStatus.critical : SecurityStatus.pass,
         ),
         SecurityCheckResult(
